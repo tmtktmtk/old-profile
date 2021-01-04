@@ -160,6 +160,12 @@ textarea {
   appearance: none;
 }
 
+a.nostyle {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
 /* Basic */
 
 html {
@@ -2692,11 +2698,10 @@ input[type="button"]:disabled,
   justify-content: space-between;
   background-color: #1f1815;
   background-attachment: scroll, scroll;
-  background-image: url("images/overlay.png"),
-    url("../../images/bg.jpg");
-  background-position: top left, top left;
-  background-repeat: repeat, no-repeat;
-  background-size: auto, 150%;
+  background-image: url("../../images/bg1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: rgba(255, 255, 255, 0.5);
   height: 100%;
   left: 0;
@@ -3161,9 +3166,8 @@ body.is-touch .poptrox-popup .closer {
   /* Header */
 
   #header {
-    background-attachment: scroll;
-    background-position: top left, center center;
-    background-size: auto, cover;
+    background-position: center;
+    background-size: cover;
     left: auto;
     padding: 6em 4em;
     position: relative;
